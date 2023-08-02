@@ -66,19 +66,20 @@ dmi = { version = "0.3.1", optional = true }
 [features]
 default = [
     "acreplace",
+    "batchnoise",
     "cellularnoise",
     "dmi",
     "file",
     "git",
+    "hash",
     "http",
     "json",
     "log",
     "noise",
-    "rustls_tls",
-    "sql",
+    "redis_reliablequeue",
     "time",
-    "toml",
     "url",
+    "worleynoise",
 ]
 
 all = [
